@@ -3,7 +3,7 @@ export const getTest = async () => {
         const res = await fetch('http;//localhost:8080/test', {
             method: 'GET',
             headers: {
-                Accept: 'application/json', 
+                Accept: "application/json", 
                 "connect-Type": "application/json",
 
             },
